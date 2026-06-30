@@ -26,7 +26,7 @@ header {
   margin-bottom: 20px;
   margin-left: 0;
   margin-top: 0;
-  border-bottom-right-radius:40%;
+  border-bottom-right-radius: 40%;
   border-left-color: blue;
   border-top-color: #3498db;
 }
@@ -136,10 +136,10 @@ nav {
   max-height: 300px;
   overflow-y: auto;
 }
-.cart-modal-header h2{
-font-size: 20px;
-color: #553155;
-font-weight: bold;
+.cart-modal-header h2 {
+  font-size: 20px;
+  color: #553155;
+  font-weight: bold;
 }
 .cart-modal-item {
   display: flex;
@@ -227,7 +227,7 @@ h2 {
   position: relative;
   width: 90%;
   max-width: 500px;
-  margin: 10px auto;
+  margin: 40px auto 0px auto;
 }
 .search input {
   width: 70%;
@@ -272,7 +272,7 @@ h2 {
 .cat_Products {
   display: grid;
   grid-template-columns: repeat(2, minmax(20%, 1fr));
-  padding: 10px 0;
+  padding: 50px 0;
   width: 90%;
   height: 80vh;
   margin: auto;
@@ -344,7 +344,7 @@ h2 {
   font-size: 1rem;
   color: #2c3e50;
   margin: 0 0 2px 0;
-  min-height: 10px; 
+  min-height: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -374,8 +374,8 @@ h2 {
 }
 .card-actions button {
   background-color: rgb(75, 183, 182);
-} 
-.card-actions button:hover{
+}
+.card-actions button:hover {
   background-color: rgb(194, 240, 239);
   color: #1f201f;
 }
@@ -426,17 +426,19 @@ h2 {
     height: 60px;
   }
   header h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 25px;
+    font-weight: bold;
+    color: #e114e1b5;
   }
   nav a {
     font-size: 13px;
   }
   .cat_Products {
-    gap: 15px;
+    gap: 10px;
   }
 
   .cat_card {
-    padding: 30px 15px;
+    padding: 15px 15px;
   }
 }
